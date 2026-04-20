@@ -87,6 +87,7 @@ export function LoginForm({
             required
             value={formData.email}
             onChange={handleChange}
+            defaultValue={"testuser@gmail.com"}
           />
         </Field>
 
@@ -99,6 +100,7 @@ export function LoginForm({
             required
             value={formData.password}
             onChange={handleChange}
+            defaultValue={"testpassword"}
           />
           {error && <p className="text-sm text-red-500 mt-2">{error}</p>}
         </Field>
