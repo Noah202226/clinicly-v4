@@ -19,8 +19,8 @@ export function LoginForm({
   const { handleLogin, checkAuth } = useAuthStore();
 
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
+    email: "testuser@gmail.com",
+    password: "testpassword",
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -69,6 +69,21 @@ export function LoginForm({
       onSubmit={handleSubmit}
       {...props}
     >
+      {/* DEMO BANNER */}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 text-center space-y-1">
+        <p className="text-xs font-semibold text-amber-700">Demo Account</p>
+        <p className="text-xs text-amber-600">
+          Email:{" "}
+          <span className="font-mono font-medium">testuser@gmail.com</span>
+        </p>
+        <p className="text-xs text-amber-600">
+          Password: <span className="font-mono font-medium">testpassword</span>
+        </p>
+        <p className="text-[10px] text-amber-500 mt-1">
+          Credentials are pre-filled — just click Sign In
+        </p>
+      </div>
+
       <FieldGroup>
         <div className="flex flex-col items-center gap-1 text-center">
           <h1 className="text-2xl font-bold">Sign In</h1>
@@ -87,7 +102,6 @@ export function LoginForm({
             required
             value={formData.email}
             onChange={handleChange}
-            defaultValue={"testuser@gmail.com"}
           />
         </Field>
 
@@ -100,7 +114,6 @@ export function LoginForm({
             required
             value={formData.password}
             onChange={handleChange}
-            defaultValue={"testpassword"}
           />
           {error && <p className="text-sm text-red-500 mt-2">{error}</p>}
         </Field>
