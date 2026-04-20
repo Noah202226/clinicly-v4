@@ -22,8 +22,8 @@ const montserrat = Montserrat({
   variable: "--font-montserrat", // This links to your CSS
 });
 
-const APP_NAME = "Egargue Dental Group";
-const APP_DEFAULT_TITLE = "Egargue Dental Group";
+const APP_NAME = "Cliniqly - Dental Clinic Management System";
+const APP_DEFAULT_TITLE = "Cliniqly";
 const APP_TITLE_TEMPLATE = "%s - PWA App";
 const APP_DESCRIPTION = "Best Dental clinic app in the world!";
 
