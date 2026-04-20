@@ -37,7 +37,7 @@ export default function LoginPage() {
       </div>
       <div className="bg-muted relative hidden lg:block">
         <img
-          src="/Egargue-logo1-Final.png"
+          src="/arctech_demo_logo.svg"
           alt="Image"
           className="absolute inset-0 h-full w-full object-contain p-2 dark:brightness-[0.2] dark:grayscale"
         />
