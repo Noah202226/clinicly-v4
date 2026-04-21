@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clinicly — Dentist Buddy
+A Comprehensive Dental Clinic Management System
+Built by ArcTech Solutions, Clinicly is a high-performance, multi-branch dental management platform designed to streamline patient onboarding, clinical charting, and financial operations.
 
-## Getting Started
+🚀 Key Features
+1. Interactive Dashboard & Analytics
+A centralized "Clinic Overview" providing real-time data on daily appointments, gross revenue, expenses, and patient growth.
 
-First, run the development server:
+Performance Tracking: Monthly and yearly analytics overview.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Inventory Insights: Automated alerts for low-stock items.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Reminders: Integrated birthday and appointment notifications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Digital Dental Charting & Patient Records
+Moving beyond paper records with a sophisticated, interactive dental mapping system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visual Charting: Detailed maxillary and mandibular deciduous/permanent tooth mapping.
 
-## Learn More
+Medical History: Comprehensive digital storage for patient consent, progress notes, and history.
 
-To learn more about Next.js, take a look at the following resources:
+Role-Based Access: Sensitive patient data is protected via granular user permissions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Smart Appointment Monitoring
+Manage clinic flow with multiple viewing modes to ensure no patient is overlooked.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Monthly Forecast: A full calendar view for long-term scheduling.
 
-## Deploy on Vercel
+Daily Schedule: Granular time-slot tracking including patient source (e.g., Facebook, Walk-in) and status updates.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Public Booking Link: A seamless, 4-step patient onboarding flow (Visit Details → Schedule → Personal Info → Confirm).
