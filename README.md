@@ -239,7 +239,7 @@ Full Stack Developer specializing in React, NextJS, and business management syst
 |---|---|
 | GitHub | [github.com/Noah202226](https://github.com/Noah202226) |
 | LinkedIn | [linkedin.com/in/noaligpitan26](https://linkedin.com/in/noaligpitan26) |
-| Portfolio | [noaligpitan.site](https://noaligpitan.site) |
+| Portfolio | [[noaligpitan.site](https://noaligpitan-26.vercel.app/)|
 | Facebook | [ArcTech Solutions](https://web.facebook.com/ArcTechSolutions25) |
 | YouTube | [@devBrosPh](https://youtube.com/@devBrosPh) |
 
