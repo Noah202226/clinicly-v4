@@ -252,10 +252,11 @@ export function NavMain({
                   tooltip={item.title}
                   isActive={isActive}
                   className={cn(
-                    "h-11 px-3 rounded-xl transition-all duration-200 ease-in-out font-semibold",
-                    "data-[active=true]:bg-indigo-600 data-[active=true]:text-white data-[active=true]:shadow-md data-[active=true]:shadow-indigo-200",
-                    "hover:data-[active=true]:bg-indigo-700 hover:data-[active=true]:text-white",
-                    "text-slate-600 hover:bg-indigo-50 hover:text-indigo-600",
+                    "h-11 px-3 rounded-xl transition-all duration-200 ease-in-out font-semibold w-full",
+                    // 🚀 USE TERNARY INSTEAD OF DATA ATTRIBUTES FOR GUARANTEED COLORS
+                    isActive
+                      ? "!bg-indigo-600 !text-white shadow-md shadow-indigo-200 hover:bg-indigo-700 hover:text-white"
+                      : "text-slate-600 hover:bg-indigo-50 hover:text-indigo-600",
                   )}
                 >
                   <Link
@@ -268,7 +269,7 @@ export function NavMain({
                       className={cn(
                         "shrink-0 transition-colors",
                         isActive
-                          ? "text-white"
+                          ? "text-white " // Keep icon white when active
                           : "text-slate-400 group-hover:text-indigo-600",
                       )}
                     />
