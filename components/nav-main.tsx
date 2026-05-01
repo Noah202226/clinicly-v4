@@ -255,7 +255,7 @@ export function NavMain({
                     "h-11 px-3 rounded-xl transition-all duration-200 ease-in-out font-semibold w-full",
                     // 🚀 USE TERNARY INSTEAD OF DATA ATTRIBUTES FOR GUARANTEED COLORS
                     isActive
-                      ? "!bg-indigo-600 !text-white shadow-md shadow-indigo-200 hover:bg-indigo-700 hover:text-white"
+                      ? "bg-indigo-600! text-white! shadow-md shadow-indigo-200 hover:bg-indigo-700 hover:text-white"
                       : "text-slate-600 hover:bg-indigo-50 hover:text-indigo-600",
                   )}
                 >
